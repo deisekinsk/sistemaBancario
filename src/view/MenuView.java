@@ -31,13 +31,13 @@ public class MenuView {
 
         switch (tipo){
             case "1":
-                System.out.printf("Saldo: %s%n", operacoes.getSaldo());
+                //System.out.printf("Saldo: %s%n", operacoes.getSaldo());
                 break;
             case "2":
-                System.out.println(operacoes.getExtrato());
+                //System.out.println(operacoes.getExtrato());
                 break;
             case "3":
-                System.out.println(operacoes.getTransferencia());
+                //System.out.println(operacoes.getTransferencia());
                 break;
             case "4":
                 System.out.println("Sistema Encerrado.");

@@ -5,13 +5,19 @@ public class Main {
 
     public static void main (String[] args){
 
-    Conta.criarConta();
+        Conta addCliente = new Conta();
 
-    MenuView view = new MenuView();
-    System.out.println(view);
+        addCliente.setCliente();
+        addCliente.setSaldo();
+        addCliente.setIdConta();
 
 
-
+        System.out.println(
+                "Bem vindo/a " +
+                        addCliente.getCliente() + "\n sua conta é: " +
+                        addCliente.getIdConta() + "\n seu saldo atual é R$ " +
+                        addCliente.getSaldo()
+        );
 
     }
 }
